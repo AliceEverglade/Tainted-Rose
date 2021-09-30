@@ -1,0 +1,43 @@
+:root{
+    --TextColor: #690426;
+    --BackgroundColor: aliceblue;
+    --TitleHeight: 10vh;
+    --SideBarHeight: 90vh;
+    --SideBarWidth: 13vw;
+    --Padding: 10px;
+    --MinSideBarSize: 215px;
+}
+
+body{
+    margin: 0;
+}
+
+
+
+.Title{
+    color: var(--TextColor);
+    background-color: var(--BackgroundColor);
+    position: fixed;
+    height: var(--TitleHeight);
+    width: var(--SideBarWidth);
+    padding: var(--Padding);
+    min-width: var(--MinSideBarSize);
+}
+
+.Nav{
+    background-color: var(--BackgroundColor);
+    color: var(--TextColor);
+    position: fixed;
+    margin-top: var(--TitleHeight);
+    height: var(--SideBarHeight);
+    width: var(--SideBarWidth);
+    display: flex;
+    flex-direction: column;
+    padding: var(--Padding);
+    min-width: var(--MinSideBarSize);
+}
+
+.Links{
+    color: var(--TextColor);
+    padding-top: var(--Padding);
+}
