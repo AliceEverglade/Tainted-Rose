@@ -14,9 +14,9 @@ body{
 
 
 .Logo{
+    position: absolute;
     height: var(--HeaderSize);
     width: var(--HeaderSize);
-    position: fixed;
     background-color: transparent;
     background-image: url(../Assets/Pictures/TestLogo.png);
     background-size: 100% 100%;
@@ -26,13 +26,90 @@ body{
 }
 
 .Title{
-    color: var(--TextColor);
-    font-family: 'Atomic Age';
-    font-size: 40px;
-    background-color: var(--BackgroundColor);
-    position: fixed;
+    position: sticky;
+    height: 16vh;
+    width: 30vw;
+    background-color: transparent;
+    background-image: url(../Assets/Pictures/Title_img.png);
+    image-rendering: pixelated;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     margin-left: var(--HeaderSize);
+    margin-right: 50vw;
     border: 5px solid var(--BorderColor);
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8{
+    width: 12.5vw;
+    height: 8vw;
+    border: 5px solid black;
+}
+.button1{
+    margin-left: 50vw;
+}
+.button2{
+    margin-left: 50vw;
+    margin-top: 8vh;
+}
+.button3{
+    margin-left: 62.5vw;
+}
+.button4{
+    margin-left: 62.5vw;
+    margin-top: 8vh;
+}
+.button5{
+    margin-left: 75vw;
+}
+.button6{
+    margin-left: 75vw;
+    margin-top: 8vh;
+}
+.button7{
+    margin-left: 87.5vw;
+}
+.button8{
+    margin-left: 87.5vw;
+    margin-top: 8vh;
+}
+
+.ProfilePicture{
+    position: absolute;
+    height: 10vw;
+    width: 10vw;
+    margin-top: 20vh;
+    margin-left: 30vw;
+    border-radius: 50%;
+    border: 5px solid lightpink;
+}
+
+.NameCard{
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 45vw;
+    font-size: 40px;
+    border: 5px solid black;
+}
+
+.Introduction{
+    border: 5px solid black;
+    margin-top: 45vh;
+    margin-left: 30vw;
+    margin-right: 20vw;
+}
+
+.StarJump{
+    position: absolute;
+    width: 45vw;
+    height: 28vw;
+    margin-left: 5vw;
+    border: 5px solid black;
+}
+.StarJumpInfo{
+    margin-left: 50.5vw;
+    width: 43vw;
+    height: 28vw;
+    border: 5px solid black;
 }
 
 .Nav{
