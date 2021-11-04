@@ -5,6 +5,7 @@
     --HeaderSize: 20vw;
 
 }
+/**/
 
 body{
     margin: 0;
@@ -27,7 +28,7 @@ body{
 
 .Title{
     position: sticky;
-    height: 16vh;
+    height: 15vh;
     width: 30vw;
     background-color: transparent;
     background-image: url(../Assets/Pictures/Title_img.png);
@@ -39,39 +40,70 @@ body{
     border: 5px solid var(--BorderColor);
 }
 
-.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8{
+.Button1, .Button2, .Button3, .Button4, .Button5, .Button6, .Button7, .Button8{
     width: 12.5vw;
-    height: 8vw;
+    height: 4vw;
     border: 5px solid black;
+    position: absolute;
 }
-.button1{
-    margin-left: 50vw;
+.Button1{
+    margin-left: 30.25vw;
+    margin-top: -2.8vh;
 }
-.button2{
-    margin-left: 50vw;
-    margin-top: 8vh;
+.Button2{
+    margin-left: 30.25vw;
+    margin-top: 5.2vh;
 }
-.button3{
-    margin-left: 62.5vw;
+.Button3{
+    margin-left: 42.75vw;
+    margin-top: -2.8vh;
 }
-.button4{
-    margin-left: 62.5vw;
-    margin-top: 8vh;
+.Button4{
+    margin-left: 42.75vw;
+    margin-top: 5.2vh;
 }
-.button5{
-    margin-left: 75vw;
+.Button5{
+    /*patreon button*/
+    margin-left: 55.25vw;
+    margin-top: -2.8vh;
+    background-color: transparent;
+    background-image: url(../Assets/Pictures/Patreon\ Button.png);
+    image-rendering: pixelated;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.button6{
-    margin-left: 75vw;
-    margin-top: 8vh;
+.Button6{
+    /*twitch button*/
+    margin-left: 55.25vw;
+    margin-top: 5.2vh;
+    background-color: transparent;
+    background-image: url(../Assets/Pictures/Twitch\ Button.png);
+    image-rendering: pixelated;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.button7{
-    margin-left: 87.5vw;
+.Button7{
+    /*mail button*/
+    margin-left: 66.37vw;
+    margin-top: -2.8vh;
+    background-color: transparent;
+    background-image: url(../Assets/Pictures/Mail\ Button.png);
+    image-rendering: pixelated;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
-.button8{
-    margin-left: 87.5vw;
-    margin-top: 8vh;
+
+.Button8{
+    /*youtube button*/
+    margin-left: 66.37vw;
+    margin-top: 5.2vh;
+    background-color: transparent;
+    background-image: url(../Assets/Pictures/Youtube\ Button.png);
+    image-rendering: pixelated;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
+
 
 .ProfilePicture{
     position: absolute;
@@ -110,6 +142,12 @@ body{
     width: 43vw;
     height: 28vw;
     border: 5px solid black;
+}
+.PCspecs{
+    border: 5px solid black;
+    margin-left: 5vw;
+    width: 25vw;
+    height: 70vh;
 }
 
 .Nav{
