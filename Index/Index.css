@@ -45,6 +45,7 @@ body{
     height: 4vw;
     border: 5px solid black;
     position: absolute;
+    cursor: pointer;
 }
 .Button1{
     margin-left: 30.25vw;
@@ -137,12 +138,14 @@ body{
     margin-left: 5vw;
     border: 5px solid black;
 }
+
 .StarJumpInfo{
     margin-left: 50.5vw;
     width: 43vw;
     height: 28vw;
     border: 5px solid black;
 }
+
 .PCspecs{
     border: 5px solid black;
     margin-left: 5vw;
@@ -150,13 +153,55 @@ body{
     height: 70vh;
 }
 
-.Nav{
-    background-color: var(--BackgroundColor);
-    color: var(--TextColor);
+.TableCell{
+    border: 5px solid black;
+}
+
+.Socials{
+    border: 5px solid black;
+    margin-top: -69.9vh;
+    margin-left: 68.5vw;
+    width: 25vw;
+    height: 68.85vh;
+}
+
+.InstagramButton, .TwitterButton, .DiscordButton, .MetaButton, .PinterestButton, .TikTokButton{
+    width: 7vw;
+    height: 7vw;
+    margin-left: 3.5vw;
+    margin-top: 6vh;
+    background-color: transparent;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: 5px solid black;
+}
+
+.InstagramButton{
+    background-image: url(../Assets/Pictures/Instagram.png);
+}
+.TwitterButton{
+    background-image: url(../Assets/Pictures/Twitter.png);
+}
+.DiscordButton{
+    background-image: url(../Assets/Pictures/Discord.png);
+}
+.MetaButton{
+    background-image: url(../Assets/Pictures/Facebook.png);
+}
+.PinterestButton{
+    background-image: url(../Assets/Pictures/Pinterest.png);
+}
+.TikTokButton{
+    background-image: url(../Assets/Pictures/TikTok.png);
 
 }
 
-.Links{
-    color: var(--TextColor);
-    padding-top: var(--Padding);
+.UselessButton{
+    position: absolute;
+    border: 5px solid black;
+    margin-top: -69.9vh;
+    margin-left: 36vw;
+    width: 25vw;
+    height: 68.85vh;
 }
