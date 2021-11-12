@@ -129,6 +129,8 @@ body{
     margin-top: 45vh;
     margin-left: 30vw;
     margin-right: 20vw;
+    padding: 10px;
+    font-size: 20px;
 }
 
 .StarJump{
@@ -142,8 +144,10 @@ body{
 .StarJumpInfo{
     margin-left: 50.5vw;
     width: 43vw;
-    height: 28vw;
+    height: 26.97vw;
     border: 5px solid black;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .PCspecs{
@@ -161,7 +165,7 @@ body{
     border: 5px solid black;
     margin-top: -69.9vh;
     margin-left: 68.5vw;
-    width: 25vw;
+    width: 26vw;
     height: 68.85vh;
 }
 
